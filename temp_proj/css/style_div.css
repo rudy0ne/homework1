@@ -4,6 +4,9 @@ div {
 }
 
 /*googled this since "margin: 0 auto;" would not work with "display: inline-block;"*/
+
+/* ^-- I approve */
+
 body {
     text-align: center;
 } 
@@ -14,6 +17,7 @@ body {
 
 .feature {
 	background: Peru;
+	margin: 1em; /* this will give them space from one another 1em all the way around */
 	display: inline-block;
 	padding: 2em;
 	width: 300px;
