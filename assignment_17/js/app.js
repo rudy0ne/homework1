@@ -13,3 +13,4 @@ var one = 1
 var two = 2
 var three = one + two
 // document.write (<p>three</p>); "why does this break my code??? how would I use <p> or <div> here?"
+document.write('<p>three</p>'); // it's a string
